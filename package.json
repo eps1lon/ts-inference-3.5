@@ -1,0 +1,12 @@
+{
+  "name": "ts-inference-3.5",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "typescript": "^3.6.0-dev.20190603"
+  }
+}
