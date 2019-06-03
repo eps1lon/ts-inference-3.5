@@ -31,8 +31,9 @@ export type StylesRequireProps<S> = Or<
   ? false
   : true;
 
-export function createStyles<ClassKey extends string, Props extends object>(
-  styles: Styles<ClassKey, Props>
-): Styles<ClassKey, Props> {
+export function createStyles<
+  ClassKey extends string,
+  Props extends object = {}
+>(styles: Styles<ClassKey, Props>): Styles<ClassKey, Props> {
   return styles;
 }
